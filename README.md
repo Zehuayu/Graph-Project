@@ -47,8 +47,8 @@ name: Zehua Yu
             \   |                      /
              \  |                     /
 project ---- Lecture----------timeslot------room(room number)
-              |
-              |
+              \
+               \
              timeslot(different time of class)
 
 
