@@ -53,6 +53,19 @@ name: Zehua Yu
 
   I made relationship with other lectures also(there are 5 lecture)   
 
+### console
+  (make node)
+  CREATE (Graph:Lecture {title:'Graph Theory' })
+  CREATE (Deirdre:lecturer{Fname:'Deirder'})
+  CREATE (Project1:Project {topic:'Graph for NEO4J'})
+  CREATE (mTime1:TimeSlot {Timeslot:'9:00-10:00 Monday'})
+  CREATE (r0145:Room {RoomNumber:'0145'})
+
+ (make relationship)
+  CREATE
+  (Year)-[:Year_Of]->(Graph),
+  (Year)-[:Year_Of]->(Database_Mgmt),
+ 
 
 
 ### Conclusion
